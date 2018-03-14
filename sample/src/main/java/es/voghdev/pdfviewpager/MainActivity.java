@@ -34,6 +34,7 @@ public class MainActivity extends BaseSampleActivity {
         setTitle(R.string.std_example);
         setContentView(R.layout.activity_main);
 
+
         pdfViewPager = (PDFViewPager) findViewById(R.id.pdfViewPager);
 
         adapter = new PDFPagerAdapter(this, "sample.pdf");
